@@ -1,6 +1,6 @@
 baseURL: "https://example.org/"
 languageCode: "en-us"
-title: "Hugo React Bootstrap5 Typescript Esbuild Netlify Template"
+title: "Hugo Sass React Template"
 enableGitInfo: true
 enableEmoji: true
 
@@ -42,6 +42,10 @@ menus:
       name: "Shop"
       url: "/shop"
       weight: 200
+    - identifier: About
+      name: About
+      url: /about
+      weight: 300
 
   footer:
     - identifier: "About"
